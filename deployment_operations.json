@@ -1,0 +1,371 @@
+[
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/45BE89D016B59FAF",
+    "operationId": "45BE89D016B59FAF",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:55:35.9437983Z",
+      "duration": "PT1M22.7077187S",
+      "trackingId": "2e4e3ed1-8eb1-4f9e-91d3-fdf4b49acb58",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Compute/virtualMachines/window-vm",
+        "resourceType": "Microsoft.Compute/virtualMachines",
+        "resourceName": "window-vm"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/A9A06035725A5915",
+    "operationId": "A9A06035725A5915",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:54.6573223Z",
+      "duration": "PT41.4212427S",
+      "trackingId": "3c92fea6-2466-477a-963a-5fa4d9a9398a",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Compute/virtualMachines/linux-vm",
+        "resourceType": "Microsoft.Compute/virtualMachines",
+        "resourceName": "linux-vm"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/540B6ECBF71D3727",
+    "operationId": "540B6ECBF71D3727",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:13.7565523Z",
+      "duration": "PT0.5204727S",
+      "trackingId": "f19b7964-588e-4970-bf05-a4948441768f",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkInterfaces/window-vm528",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "window-vm528"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/B426BE972785F4C8",
+    "operationId": "B426BE972785F4C8",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:13.7198206Z",
+      "duration": "PT0.483741S",
+      "trackingId": "3944f5b5-3488-41a7-8415-92d3dfde8851",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkInterfaces/linux-vm763_z1",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "linux-vm763_z1"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/6982B156D40829D8",
+    "operationId": "6982B156D40829D8",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:13.1826617Z",
+      "duration": "PT3.6787751S",
+      "trackingId": "bf99993c-6e82-4d75-924b-3f590af6c7d5",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/virtualNetworks/lab-vnet/subnets/lab-subnet-1",
+        "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+        "resourceName": "lab-vnet/lab-subnet-1"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/147DCAAE4B3B83A4",
+    "operationId": "147DCAAE4B3B83A4",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:26.6265802Z",
+      "duration": "PT17.1226936S",
+      "trackingId": "c5ad73a9-1e17-4371-b651-9082cb1b40d4",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windows-vm-nsg/securityRules/RDP",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "windows-vm-nsg/RDP"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/F9D625D5C1CA7E76",
+    "operationId": "F9D625D5C1CA7E76",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:11.9202646Z",
+      "duration": "PT0.276185S",
+      "trackingId": "943a7c49-4963-41b7-9679-53eabad1ad4d",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windows-vm-nsg/securityRules/SSH",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "windows-vm-nsg/SSH"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/90C6603002B13CCA",
+    "operationId": "90C6603002B13CCA",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:11.6041903Z",
+      "duration": "PT0.526481S",
+      "trackingId": "10df298f-163a-4fa0-b16c-be814d8a8b11",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linuxvmnsg840/securityRules/SSH",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "linuxvmnsg840/SSH"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/56BFED49CF7E0907",
+    "operationId": "56BFED49CF7E0907",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:11.337809Z",
+      "duration": "PT0.3547226S",
+      "trackingId": "28eca005-93d4-4b95-991e-dc7a5eccd491",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/window-vm-nsg/securityRules/RDP",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "window-vm-nsg/RDP"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/4D8A740ED0E628D6",
+    "operationId": "4D8A740ED0E628D6",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:24.7285093Z",
+      "duration": "PT13.7454229S",
+      "trackingId": "aa7303e2-6e24-4627-af29-6aa17dd56463",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/window-vm-nsg/securityRules/SSH",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "window-vm-nsg/SSH"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/9F1867C3F3D46129",
+    "operationId": "9F1867C3F3D46129",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:11.2038964Z",
+      "duration": "PT1.7000098S",
+      "trackingId": "fdd3e87f-e172-4276-a24d-aa4afb732768",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windowsvmnsg973/securityRules/SSH",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "windowsvmnsg973/SSH"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/D187E9F76A291FB8",
+    "operationId": "D187E9F76A291FB8",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:23.0441609Z",
+      "duration": "PT12.0665582S",
+      "trackingId": "4a9f1022-7781-4acf-83b7-0ad9f7f9d613",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windowsvmnsg973/securityRules/RDP",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "windowsvmnsg973/RDP"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/56E9A707056A4631",
+    "operationId": "56E9A707056A4631",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:10.9861287Z",
+      "duration": "PT1.4822421S",
+      "trackingId": "63fa74b4-19d4-4ce6-9f91-2e242d16c8cd",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linux-vm-nsg/securityRules/SSH",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "linux-vm-nsg/SSH"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/CA0374C7B586CF70",
+    "operationId": "CA0374C7B586CF70",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:11.4306033Z",
+      "duration": "PT1.9267167S",
+      "trackingId": "c9df4dd8-893d-4827-bb5c-802c36f653ff",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windows-vm-nsg",
+        "resourceType": "Microsoft.Network/networkSecurityGroups",
+        "resourceName": "windows-vm-nsg"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/06279B218FC8423F",
+    "operationId": "06279B218FC8423F",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:12.7398196Z",
+      "duration": "PT3.235933S",
+      "trackingId": "ef6a6d9c-2c54-4707-acbc-04fbfe50930e",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/virtualNetworks/lab-vnet",
+        "resourceType": "Microsoft.Network/virtualNetworks",
+        "resourceName": "lab-vnet"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/69A1FB6C25BD8DF9",
+    "operationId": "69A1FB6C25BD8DF9",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:10.720624Z",
+      "duration": "PT1.2167374S",
+      "trackingId": "c5e995f7-69e2-49df-82f7-64363f553c58",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linux-vm-nsg",
+        "resourceType": "Microsoft.Network/networkSecurityGroups",
+        "resourceName": "linux-vm-nsg"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/CED1BEFD968183B4",
+    "operationId": "CED1BEFD968183B4",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:10.8498715Z",
+      "duration": "PT1.3459849S",
+      "trackingId": "6596b63a-b5fb-487c-8a16-97416a53149e",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linuxvmnsg840",
+        "resourceType": "Microsoft.Network/networkSecurityGroups",
+        "resourceName": "linuxvmnsg840"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/C540D704FB1A041C",
+    "operationId": "C540D704FB1A041C",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:10.9139759Z",
+      "duration": "PT1.4100893S",
+      "trackingId": "c1fa0b57-8a03-42f1-bd97-18260fd390bc",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windowsvmnsg973",
+        "resourceType": "Microsoft.Network/networkSecurityGroups",
+        "resourceName": "windowsvmnsg973"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/4B4B33F25EA42F0A",
+    "operationId": "4B4B33F25EA42F0A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:11.4888242Z",
+      "duration": "PT1.9849376S",
+      "trackingId": "50cdcc3d-d4ac-4c02-ab86-11508803ec09",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/publicIPAddresses/linux-vm-ip",
+        "resourceType": "Microsoft.Network/publicIPAddresses",
+        "resourceName": "linux-vm-ip"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/EE63E8DBD77EE837",
+    "operationId": "EE63E8DBD77EE837",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:11.4494152Z",
+      "duration": "PT1.9455286S",
+      "trackingId": "899fd595-aad7-44a9-b7c3-b323f6d38df6",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/publicIPAddresses/window-vm-ip",
+        "resourceType": "Microsoft.Network/publicIPAddresses",
+        "resourceName": "window-vm-ip"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/6653C763572002B0",
+    "operationId": "6653C763572002B0",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:54:10.8839964Z",
+      "duration": "PT1.3801098S",
+      "trackingId": "54b704c0-62ef-4ad5-86ce-d1821155ecb4",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/window-vm-nsg",
+        "resourceType": "Microsoft.Network/networkSecurityGroups",
+        "resourceName": "window-vm-nsg"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354/operations/08584696760372936152",
+    "operationId": "08584696760372936152",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-11-18T11:55:36.1392708Z",
+      "duration": "PT0.144553S",
+      "trackingId": "933d80a0-5313-4a98-9205-d68ada8dc978",
+      "statusCode": "OK"
+    }
+  }
+]

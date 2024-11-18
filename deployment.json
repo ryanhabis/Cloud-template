@@ -1,0 +1,371 @@
+{
+  "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/deployments/Microsoft.Template-20241118115354",
+  "name": "Microsoft.Template-20241118115354",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateLink": {
+      "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Resources/templateSpecs/lab_template/versions/1",
+      "contentVersion": "1.0.0.0"
+    },
+    "templateHash": "11424936433849084543",
+    "parameters": {
+      "virtualMachines_linux_vm_name": {
+        "type": "String",
+        "value": "linux-vm"
+      },
+      "virtualNetworks_lab_vnet_name": {
+        "type": "String",
+        "value": "lab-vnet"
+      },
+      "virtualMachines_window_vm_name": {
+        "type": "String",
+        "value": "window-vm"
+      },
+      "publicIPAddresses_linux_vm_ip_name": {
+        "type": "String",
+        "value": "linux-vm-ip"
+      },
+      "networkInterfaces_window_vm528_name": {
+        "type": "String",
+        "value": "window-vm528"
+      },
+      "publicIPAddresses_window_vm_ip_name": {
+        "type": "String",
+        "value": "window-vm-ip"
+      },
+      "networkInterfaces_linux_vm763_z1_name": {
+        "type": "String",
+        "value": "linux-vm763_z1"
+      },
+      "networkSecurityGroups_linux_vm_nsg_name": {
+        "type": "String",
+        "value": "linux-vm-nsg"
+      },
+      "networkSecurityGroups_linuxvmnsg840_name": {
+        "type": "String",
+        "value": "linuxvmnsg840"
+      },
+      "networkSecurityGroups_window_vm_nsg_name": {
+        "type": "String",
+        "value": "window-vm-nsg"
+      },
+      "networkSecurityGroups_windows_vm_nsg_name": {
+        "type": "String",
+        "value": "windows-vm-nsg"
+      },
+      "networkSecurityGroups_windowsvmnsg973_name": {
+        "type": "String",
+        "value": "windowsvmnsg973"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2024-11-18T11:55:36.1744264Z",
+    "duration": "PT1M27.2711781S",
+    "correlationId": "24ee4554-b796-4f6c-b4e5-b29c4a5f331e",
+    "providers": [
+      {
+        "namespace": "Microsoft.Network",
+        "resourceTypes": [
+          {
+            "resourceType": "networkSecurityGroups",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "publicIPAddresses",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "virtualNetworks",
+            "locations": [
+              "westeurope"
+            ]
+          },
+          {
+            "resourceType": "networkSecurityGroups/securityRules",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "virtualNetworks/subnets",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "networkInterfaces",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Compute",
+        "resourceTypes": [
+          {
+            "resourceType": "virtualMachines",
+            "locations": [
+              "westeurope"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkInterfaces/linux-vm763_z1",
+            "resourceType": "Microsoft.Network/networkInterfaces",
+            "resourceName": "linux-vm763_z1"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Compute/virtualMachines/linux-vm",
+        "resourceType": "Microsoft.Compute/virtualMachines",
+        "resourceName": "linux-vm"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkInterfaces/window-vm528",
+            "resourceType": "Microsoft.Network/networkInterfaces",
+            "resourceName": "window-vm528"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Compute/virtualMachines/window-vm",
+        "resourceType": "Microsoft.Compute/virtualMachines",
+        "resourceName": "window-vm"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windows-vm-nsg",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "windows-vm-nsg"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windows-vm-nsg/securityRules/RDP",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "windows-vm-nsg/RDP"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windowsvmnsg973",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "windowsvmnsg973"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windowsvmnsg973/securityRules/RDP",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "windowsvmnsg973/RDP"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/window-vm-nsg",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "window-vm-nsg"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/window-vm-nsg/securityRules/RDP",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "window-vm-nsg/RDP"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linux-vm-nsg",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "linux-vm-nsg"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linux-vm-nsg/securityRules/SSH",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "linux-vm-nsg/SSH"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linuxvmnsg840",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "linuxvmnsg840"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linuxvmnsg840/securityRules/SSH",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "linuxvmnsg840/SSH"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windows-vm-nsg",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "windows-vm-nsg"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windows-vm-nsg/securityRules/SSH",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "windows-vm-nsg/SSH"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windowsvmnsg973",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "windowsvmnsg973"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windowsvmnsg973/securityRules/SSH",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "windowsvmnsg973/SSH"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/window-vm-nsg",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "window-vm-nsg"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/window-vm-nsg/securityRules/SSH",
+        "resourceType": "Microsoft.Network/networkSecurityGroups/securityRules",
+        "resourceName": "window-vm-nsg/SSH"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/virtualNetworks/lab-vnet",
+            "resourceType": "Microsoft.Network/virtualNetworks",
+            "resourceName": "lab-vnet"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/virtualNetworks/lab-vnet/subnets/lab-subnet-1",
+        "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+        "resourceName": "lab-vnet/lab-subnet-1"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/publicIPAddresses/linux-vm-ip",
+            "resourceType": "Microsoft.Network/publicIPAddresses",
+            "resourceName": "linux-vm-ip"
+          },
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/virtualNetworks/lab-vnet/subnets/lab-subnet-1",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "lab-vnet/lab-subnet-1"
+          },
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linuxvmnsg840",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "linuxvmnsg840"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkInterfaces/linux-vm763_z1",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "linux-vm763_z1"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/publicIPAddresses/window-vm-ip",
+            "resourceType": "Microsoft.Network/publicIPAddresses",
+            "resourceName": "window-vm-ip"
+          },
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/virtualNetworks/lab-vnet/subnets/lab-subnet-1",
+            "resourceType": "Microsoft.Network/virtualNetworks/subnets",
+            "resourceName": "lab-vnet/lab-subnet-1"
+          },
+          {
+            "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/window-vm-nsg",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "window-vm-nsg"
+          }
+        ],
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkInterfaces/window-vm528",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "window-vm528"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Compute/virtualMachines/linux-vm"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Compute/virtualMachines/window-vm"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkInterfaces/linux-vm763_z1"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkInterfaces/window-vm528"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linux-vm-nsg"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linux-vm-nsg/securityRules/SSH"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linuxvmnsg840"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/linuxvmnsg840/securityRules/SSH"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/window-vm-nsg"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/window-vm-nsg/securityRules/RDP"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/window-vm-nsg/securityRules/SSH"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windows-vm-nsg"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windows-vm-nsg/securityRules/RDP"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windows-vm-nsg/securityRules/SSH"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windowsvmnsg973"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windowsvmnsg973/securityRules/RDP"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/networkSecurityGroups/windowsvmnsg973/securityRules/SSH"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/publicIPAddresses/linux-vm-ip"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/publicIPAddresses/window-vm-ip"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/virtualNetworks/lab-vnet"
+      },
+      {
+        "id": "/subscriptions/3989c440-c405-4558-81df-eaa77b789975/resourceGroups/lab_template/providers/Microsoft.Network/virtualNetworks/lab-vnet/subnets/lab-subnet-1"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "marketplaceItemId": "Microsoft.Template"
+  }
+}
